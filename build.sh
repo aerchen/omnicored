@@ -11,7 +11,7 @@ else
     repo_url='registry.quachain.net:5000'
 fi
 
-containerName=omni
+containerName=omnicored
 echo $containerName
 imageName="${repo_url}/${containerName}:${tag}" #$(git rev-parse --short HEAD)
 echo $imageName
